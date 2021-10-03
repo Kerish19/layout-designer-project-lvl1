@@ -1,6 +1,58 @@
-* {
-  box-sizing: border-box;
+/*
+Цвета
 
-  margin: 0;
-  padding: 0;
+Белый: #fff
+Полупрозрачный белый: #d7ccc0
+Светлый: #f5f4f0
+Основной: #fe8a02
+Основной тёмный: #42413c
+Тёмный: #2a2626
+Полупрозрачный тёмный: #908d8b
+Коричневый: #b09a81
+Синий: #1085c5
+
+Шрифты
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Neucha', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+  color: #2a2626;
+  font: 16px/1.6em "Open Sans", sans-serif;
+}
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Neucha", cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
