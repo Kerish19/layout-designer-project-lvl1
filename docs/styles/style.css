@@ -66,14 +66,8 @@ p {
   margin: 0 auto;
 }
 
-.page-title {
-  color: #2a2626;
-  font-weight: 400;
-}
-
-.page-title__span {
-  color: #fe8a02;
-  font-weight: 400;
+.section {
+  padding: 100px 0;
 }
 
 .section-bg {
@@ -114,6 +108,22 @@ p {
   text-decoration: none;
 
   background: #fe8a02;
+
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #ea7600;
+}
+
+.page-title {
+  color: #2a2626;
+  font-weight: 400;
+}
+
+.page-title__span {
+  color: #fe8a02;
+  font-weight: 400;
 }
 
 /* header start */
@@ -165,3 +175,44 @@ p {
 }
 
 /* header end */
+
+/* section video start */
+.section-video {
+  margin: 0 0 -100px 0;
+  padding: 100px 0 0 0;
+}
+
+.section-video__title {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.section-video__text {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.section-video-wrapper {
+  text-align: center;
+}
+
+.section-video__iframe {
+  display: block;
+  margin: 0 auto;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+/* section video end */
+
+/* section-navigation start */
+
+.section-navigation {
+  padding: 200px 0 100px 0;
+
+  background: #42413c;
+}
+
+/* section-navigation end */
