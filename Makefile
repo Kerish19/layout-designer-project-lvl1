@@ -2,9 +2,9 @@ install:
 	npm install
 
 lint:
-	npx stylelint ./docs/styles/*.css
-	npx htmlhint ./docs/*.html
+	npx stylelint ./src/styles/*.css
+	npx htmlhint ./src/*.html
 
 lint-fix:
-	npx stylelint ./docs/styles/*.css --fix
+	npx stylelint ./src/styles/*.css --fix
 
