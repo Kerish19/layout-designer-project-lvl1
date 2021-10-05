@@ -40,7 +40,10 @@ h5,
 h6 {
   margin: 0;
 
+  font-weight: 400;
+
   font-family: "Neucha", cursive;
+
   line-height: 1.2em;
 }
 
@@ -222,6 +225,37 @@ p {
   padding: 200px 0 100px 0;
 
   background: #42413c;
+}
+
+.section-navigation-menu-item__h2 {
+  color: #fff;
+  font-size: 52px;
+}
+
+.section-navigation-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-navigation-menu__item {
+  width: 350px;
+  max-width: 100%;
+  min-height: 323px;
+  margin-top: 20px;
+  padding: 24px;
+
+  background-color: #f5f4f0;
+}
+
+.section-navigation-menu__item:nth-of-type(-n+3) {
+  margin-top: 0;
+}
+
+.section-navigation-menu__item:first-of-type {
+  padding: 24px;
+
+  background-color: transparent;
 }
 
 /* section-navigation end */
