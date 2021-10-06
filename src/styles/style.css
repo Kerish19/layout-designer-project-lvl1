@@ -310,3 +310,71 @@ p {
 }
 
 /* section-navigation end */
+
+/* section-ikea-effect start */
+
+.section-ikea-effect {
+  position: relative;
+  z-index: 1;
+
+  background-color: #f5f4f0;
+}
+
+.section-ikea-effect-inner-text-w-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-ikea-effect-inner-text-w-img__img,
+.section-ikea-effect-inner-text-w-img__text {
+  flex-basis: 50%;
+}
+
+.section-ikea-effect-inner-text-w-img__text {
+  padding-left: 30px;
+}
+
+.section-ikea-effect-inner-text-w-img__img img {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.section-ikea-effect-inner-text-w-img-text__overhead {
+  color: #908d8b;
+  font-size: 24px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.section-ikea-effect-inner-text-w-img-text__title {
+  margin-bottom: 30px;
+}
+
+.section-ikea-effect-inner-text-w-img-text__text {
+  color: #2a2626;
+  font-weight: 400;
+  font-size: 34px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+}
+
+.section-ikea-effect-inner-text__title {
+  display: flex;
+  align-items: center;
+  margin: 100px 0 20px 0;
+  padding: 5px 10px;
+
+  color: #fff;
+
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  background: #b09a81;
+}
+
+/* section-ikea-effect end */
