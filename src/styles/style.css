@@ -377,4 +377,18 @@ p {
   background: #b09a81;
 }
 
+.section-ikea-effect-inner-text-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-ikea-effect-inner-text-flex__col-1,
+.section-ikea-effect-inner-text-flex__col-2 {
+  flex-basis: 50%;
+}
+
+.section-ikea-effect-inner-text-flex__col-1 {
+  margin-right: 30px;
+}
+
 /* section-ikea-effect end */
