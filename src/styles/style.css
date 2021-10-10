@@ -130,6 +130,12 @@ p {
   font-weight: 400;
 }
 
+.section-errors-in-planning-inner-text-flex__text {
+  margin-bottom: 1em;
+
+  color: #2a2626;
+}
+
 /* header start */
 
 .header-page {
@@ -179,6 +185,10 @@ p {
 }
 
 .header-page-descr__text:last-of-type {
+  margin-bottom: 0;
+}
+
+.section-errors-in-planning-inner-text-flex__text:last-of-type {
   margin-bottom: 0;
 }
 
@@ -547,3 +557,44 @@ p {
 }
 
 /* section-hyperbolic-depreciation end */
+
+/* section-errors-in-planning start */
+
+.section-errors-in-planning {
+  position: relative;
+  z-index: 1;
+
+  background-color: #f5f4f0;
+}
+
+.section-errors-in-planning-inner-text-w-img-text__overhead {
+  color: #908d8b;
+}
+
+.section-errors-in-planning-inner-text-w-img-text__title {
+  margin-bottom: 30px;
+
+  color: #2a2626;
+}
+
+.section-errors-in-planning-inner-text-w-img-text__subtitle {
+  color: #2a2626;
+}
+
+.section-errors-in-planning-inner-text-w-img__img img {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.section-errors-in-planning-inner-text__title {
+  color: #fff;
+
+  background-color: #b09a81;
+}
+
+.section-errors-in-planning-inner-text-w-img__text {
+  padding-left: 30px;
+}
+
+/* section-errors-in-planning end */
