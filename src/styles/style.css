@@ -502,3 +502,48 @@ p {
 }
 
 /* section-distortion-of-novelty end */
+
+/* section-hyperbolic-depreciation start */
+
+.section-hyperbolic-depreciation {
+  position: relative;
+  z-index: 1;
+
+  background-color: #b09a81;
+}
+
+.section-hyperbolic-depreciation-inner-text-w-img-text__overhead {
+  color: #d7ccc0;
+}
+
+.section-hyperbolic-depreciation-inner-text-w-img-text__title {
+  margin-bottom: 30px;
+
+  color: #fff;
+}
+
+.section-hyperbolic-depreciation-inner-text-w-img-text__subtitle {
+  color: #fff;
+}
+
+.section-hyperbolic-depreciation-inner-text-w-img__img img {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.section-hyperbolic-depreciation-inner-text__title {
+  color: #b09a81;
+
+  background-color: #fff;
+}
+
+.section-hyperbolic-depreciation-inner-text-flex__text {
+  color: #fff;
+}
+
+.section-hyperbolic-depreciation-inner-text-w-img__text {
+  padding-right: 30px;
+}
+
+/* section-hyperbolic-depreciation end */
