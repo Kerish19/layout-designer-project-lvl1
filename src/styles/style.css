@@ -52,6 +52,7 @@ h1 {
 }
 
 h2 {
+  color: #fe8a02;
   font-size: 60px;
 }
 
@@ -320,13 +321,12 @@ p {
   background-color: #f5f4f0;
 }
 
-.section-ikea-effect-inner-text-w-img {
+.section-inner-text-w-img {
   display: flex;
   justify-content: space-between;
 }
 
-.section-ikea-effect-inner-text-w-img__img,
-.section-ikea-effect-inner-text-w-img__text {
+.section-inner-text-w-img__img {
   flex-basis: 50%;
 }
 
@@ -340,10 +340,25 @@ p {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.section-ikea-effect-inner-text-w-img-text__overhead {
-  color: #908d8b;
+.page-overhead {
   font-size: 24px;
   font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.section-ikea-effect-inner-text-w-img-text__overhead {
+  color: #908d8b;
+}
+
+.page-title-h2 {
+  margin: 0;
+  padding: 0;
+
+  color: #2a2626;
+
+  font-weight: 400;
+  font-size: 60px;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
@@ -351,21 +366,22 @@ p {
   margin-bottom: 30px;
 }
 
-.section-ikea-effect-inner-text-w-img-text__text {
-  color: #2a2626;
+.page-subtitle-h2 {
   font-weight: 400;
   font-size: 34px;
   font-family: 'Neucha', cursive;
   line-height: 1.2;
 }
 
-.section-ikea-effect-inner-text__title {
+.section-ikea-effect-inner-text-w-img-text__subtitle {
+  color: #2a2626;
+}
+
+.section-inner-text__title {
   display: flex;
   align-items: center;
   margin: 100px 0 20px 0;
   padding: 5px 10px;
-
-  color: #fff;
 
   font-weight: bold;
   font-size: 14px;
@@ -373,22 +389,67 @@ p {
   font-style: normal;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.section-ikea-effect-inner-text__title {
+  color: #fff;
 
   background: #b09a81;
 }
 
-.section-ikea-effect-inner-text-flex {
+.section-inner-text-flex {
   display: flex;
   justify-content: space-between;
 }
 
-.section-ikea-effect-inner-text-flex__col-1,
-.section-ikea-effect-inner-text-flex__col-2 {
+.section-inner-text-flex__col1,
+.section-inner-text-flex__col2 {
   flex-basis: 50%;
 }
 
-.section-ikea-effect-inner-text-flex__col-1 {
+.section-inner-text-flex__col1 {
   margin-right: 30px;
 }
 
 /* section-ikea-effect end */
+
+/* section-optimization start */
+
+.section-optimization {
+  position: relative;
+  z-index: 1;
+
+  background-color: #b09a81;
+}
+
+.section-optimization-effect-inner-text-w-img-text__overhead {
+  color: #d7ccc0;
+}
+
+.section-optimization-effect-inner-text-w-img-text__title {
+  margin-bottom: 30px;
+
+  color: #fff;
+}
+
+.section-optimization-effect-inner-text-w-img-text__subtitle {
+  color: #fff;
+}
+
+.section-optimization-effect-inner-text-w-img__img img {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.section-optimization-effect-inner-text__title {
+  color: #b09a81;
+
+  background-color: #fff;
+}
+
+.section-optimization-effect-inner-text-flex__text {
+  color: #fff;
+}
+
+/* section-optimization end */
